@@ -10,14 +10,14 @@ public class LinkedList {
                  length = 0;
               }
 
-           public void append (int s) {				// append method to add new nodes to the list 
+           public void append (int s) {				           // append method to add new nodes to the list 
               ListNode m = new ListNode(s);
               last.next = m;
               last = m;
               length++;
            }
            public void reverse() {								// no parameter reverse method to reverse the nodes 
-                   ListNode pointer = first;				   // of the LinkedList 
+                   ListNode pointer = first;				                                 // of the LinkedList 
                    ListNode previous = null, current = null;
                    while (pointer != null) {
                            current = pointer;
@@ -27,7 +27,7 @@ public class LinkedList {
                            first = current;
                            }
                                }
-                         public void print() {					//print method to print the nodes of the LinkedList 
+                         public void print() {				//print method to print the nodes of the LinkedList 
                                 ListNode node = first;
                                 while (node != null) {   
                                 System.out.print(node.data + " ");
