@@ -3,7 +3,7 @@ import java.util.Scanner;
 
 public class SinglyLinkedListReverse {
 
-        public static void main(String[] args) {			// main method 
+        public static void main(String[] args) {			                      // main method 
                 
                       Scanner LinkedListNumber = new Scanner(System.in);		//creation of Scanner object
                         System.out.println("Enter the nodes of the LinkedList to be reversed: ");  // receive input from user 
@@ -19,7 +19,7 @@ public class SinglyLinkedListReverse {
             	           list.append(nums[counter]);
               }
 
-           list.reverse();			// reverse list 
+           list.reverse();			  // reverse list 
            list.print();   		   // print the list entries
                  
                 }
