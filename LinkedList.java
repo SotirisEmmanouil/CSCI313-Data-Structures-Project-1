@@ -26,7 +26,7 @@ public class LinkedList {
                            previous = current;
                            first = current;
                            }
-                                }
+                               }
                          public void print() {					//print method to print the nodes of the LinkedList 
                                 ListNode node = first;
                                 while (node != null) {   
