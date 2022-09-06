@@ -16,8 +16,8 @@ public class LinkedList {
               last = m;
               length++;
            }
-           public void reverse() {								// no parameter reverse method to reverse the nodes 
-                   ListNode pointer = first;				                                 // of the LinkedList 
+           public void reverse() {								// no parameter reverse method to reverse the nodes of the LinkedList  
+                   ListNode pointer = first;				                                 
                    ListNode previous = null, current = null;
                    while (pointer != null) {
                            current = pointer;
@@ -27,7 +27,7 @@ public class LinkedList {
                            first = current;
                            }
                                }
-                         public void print() {				//print method to print the nodes of the LinkedList 
+                         public void print() {				// print method to print the nodes of the LinkedList 
                                 ListNode node = first;
                                 while (node != null) {   
                                 System.out.print(node.data + " ");
