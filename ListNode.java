@@ -7,7 +7,7 @@ public class ListNode {
               this.next = next;
            }
 
-           public ListNode()  {		// no parameter LinkedList Node constructor 
+           public ListNode() {		// no parameter LinkedList Node constructor 
               this.data = data;
               this.next = null;
            }
