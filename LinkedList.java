@@ -16,7 +16,7 @@ public class LinkedList {
               last = m;
               length++;
            }
-           public void reverse() {								// no parameter reverse method to reverse the nodes of the LinkedList  
+           public void reverse() {							// no parameter reverse method to reverse the nodes of the LinkedList  
                    ListNode pointer = first;				                                 
                    ListNode previous = null, current = null;
                    while (pointer != null) {
