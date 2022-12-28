@@ -9,9 +9,9 @@ public class SinglyLinkedListReverse {
                      int m = LinkedListNumber.nextInt(),n;  
                      LinkedList list = new LinkedList();     // creation of new LinkedList
                       
-               for(int counter = 0; counter < m; counter++) {		// for loop that will copy all the array entries into the LinkedList
+               for(int counter = 0; counter < m; counter++) {		
             	   System.out.println("Enter the value of LinkedList node number " + (counter+1) + " to be reversed: " );
-            	      n = LinkedListNumber.nextInt();
+            	      n = LinkedListNumber.nextInt();           //append nodes
             	           list.append(n);
               }
 
