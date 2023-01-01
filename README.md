@@ -1,4 +1,4 @@
-# CS313-Data-Structures-Project-1
+# CSCI313-Data-Structures-Project-1
 
 ## Reversed Linked List Project
 
