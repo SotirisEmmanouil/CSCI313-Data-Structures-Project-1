@@ -6,4 +6,4 @@ This repository contains all the files that are needed to create, fill, and reve
 
 ## Binary Tree Project
 
-Create a Binary Tree, append the requested nodes, then perform a pre-order raversal of the tree. 
+Create a Binary Tree, append the requested nodes, then perform a pre-order traversal of the tree. 
