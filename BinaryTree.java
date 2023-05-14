@@ -15,7 +15,6 @@ public class BinaryTree {
         
          System.out.print(Tnode.key + " ");
          printPreorderTraversal(Tnode.left);
-
          printPreorderTraversal(Tnode.right);
                       }
     
